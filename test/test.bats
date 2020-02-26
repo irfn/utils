@@ -120,3 +120,7 @@ load test_helper
 	run check_cmd "hey"
 	[ "$status" -eq 0 ]
 }
+@test "wait-for-it" {
+	run check_cmd "wait-for-it"
+	[ "$status" -eq 0 ]
+}

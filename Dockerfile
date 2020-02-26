@@ -39,3 +39,7 @@ ENV LC_ALL en_US.UTF-8
 RUN curl -O https://storage.googleapis.com/hey-release/hey_linux_amd64 \
   && mv hey_linux_amd64 /usr/local/bin/hey \
   && chmod +x /usr/local/bin/hey
+
+RUN curl -O https://raw.githubusercontent.com/vishnubob/wait-for-it/master/wait-for-it.sh \
+  && mv wait-for-it.sh /usr/local/bin/wait-for-it \
+  && chmod +x /usr/local/bin/wait-for-it
