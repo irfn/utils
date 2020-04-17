@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM ubuntu:disco
 
 RUN apt-get update \
   && apt-get install --no-install-recommends --yes --force-yes \
